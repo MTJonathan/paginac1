@@ -1,0 +1,201 @@
+.seccion05 {
+  display: grid;
+  gap: 50px;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+}
+.s5HeaderContainer {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 32px;
+}
+.s5Titulo h2 {
+  font-size: 55px;
+  font-weight: 500;
+}
+.s5TituloTxt {
+  display: grid;
+  height: 108%;
+  position: relative;
+  top: -32px;
+  place-items: center;
+  border-radius: 23px;
+  background-color: #f5f5f5;
+  padding: 23px 32px;
+}
+
+.s5ContentContainer {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1.3fr;
+}
+
+.S5ContentImg {
+  position: relative;
+  left: -50px;
+  background-color: #f5f5f5;
+  border-radius: 23px;
+  padding: 32px;
+  height: 450px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.S5ContentImg img {
+  border-radius: 23px;
+  filter: brightness(0.65);
+  clip-path: polygon(
+    0% 15%,
+    15% 15%,
+    15% 0%,
+    85% 0%,
+    100% 0,
+    100% 15%,
+    100% 85%,
+    76% 85%,
+    76% 100%,
+    15% 100%,
+    0 100%,
+    0% 85%
+  );
+}
+.s5TxtImg {
+  position: absolute;
+  color: #ffffff;
+  bottom: 50px;
+  left: 50px;
+}
+.s5TxtImg h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.s5ContentTxt {
+  position: relative;
+  padding: 13px 23px;
+  right: 25px;
+  /* margin-right: 50px; */
+}
+.s5TxtContent {
+  display: grid;
+  gap: 23px;
+  padding: 13px 32px 23px 20px;
+  border-radius: 23px;
+  background-color: #00ff80;
+  clip-path: polygon(
+    0% 15%,
+    0 0,
+    15% 0%,
+    37% 0,
+    37% 15%,
+    100% 15%,
+    100% 85%,
+    52% 85%,
+    52% 100%,
+    15% 100%,
+    0 100%,
+    0% 85%
+  );
+}
+.btnTest {
+  display: flex;
+  width: 180px;
+  gap: 13px;
+  align-items: center;
+  padding: 8px;
+  border-radius: 32px;
+  border: 1px solid #000;
+}
+.btnTest i {
+  display: grid;
+  place-items: center;
+  background-color: #000;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #fff;
+}
+.s5TxtContent p {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.s5ContentBtn {
+  margin: 32px 0 0;
+  padding: 23px 0 0;
+  border-top: 1.5px solid gray;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+  justify-content: space-between;
+}
+.s5btnsnums {
+  border: 1.5px solid #000;
+  padding: 6px 18px;
+  border-radius: 23px;
+}
+.s5ContentBtn button {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  padding: 6px 23px;
+  border-radius: 23px;
+  border: none;
+  background-color: #101010;
+}
+.s5ContentBtn button svg {
+  font-size: 20px;
+}
+
+@media (width <=1240px) {
+  .s5TxtContent {
+    clip-path: none;
+  }
+}
+@media (width <=1100px) {
+  .s5HeaderContainer {
+    grid-template-columns: 1fr;
+  }
+  .seccion05 {
+    padding-right: 50px !important;
+  }
+  .s5TituloTxt {
+    position: static;
+  }
+  .S5ContentImg {
+    left: 0;
+    border-radius: 23px;
+  }
+  .s5ContentTxt {
+    position: static;
+  }
+  .s5ContentContainer {
+    grid-template-columns: 1fr;
+  }
+  .seccion05 {
+    padding: 23px 80px !important;
+  }
+}
+@media (width <= 570px) {
+  .S5ContentImg img {
+    clip-path: none;
+  }
+}
+@media (width <= 500px) {
+  .s5Titulo h2 {
+    font-size: 38px;
+  }
+  .S5ContentImg {
+    height: 300px;
+  }
+  .s5TxtContent p {
+    font-size: 20px;
+  }
+  .s5TxtImg{
+    width: 80%;
+  }
+}

@@ -1,0 +1,75 @@
+.seccion06{
+    background-color: #00ff80;
+    margin-bottom: 50px !important;
+    border-radius: 20px;
+    padding: 80px 50px !important;
+    clip-path: polygon(0% 15%, 0 0, 15% 0%, 74% 0, 74% 16%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 20% 100%, 20% 90%, 0 90%);
+}
+
+.s6Container{
+    display: grid;
+    gap: 32px;
+}
+.s6Container header{
+    width: 80%;
+}
+.s6Container header h2{
+    font-size: 55px;
+}
+.s6txt{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: space-between;
+}
+.txtS6{
+    width: 35%;
+}
+.btnS6{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.btnS6 a{
+    display: flex;
+    gap: 13px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #000;
+    align-items: center;
+    border-radius: 23px;
+    border: 1px solid #000;
+}
+.btnS6 a:nth-child(1){
+    background-color: #000;
+    color: #FFFFFF;
+}
+.btnS6 a:nth-child(1) svg{
+    font-size: 20px;
+}
+@media (width <= 1220px) {
+    .txtS6{
+        width: 50%;
+    }
+}
+@media (width <= 1000px) {
+    .seccion06{
+        clip-path: none;
+    }
+}
+@media (width <= 914px){
+    .btnS6 a{
+        padding: 15px 20px;
+    }
+    .txtS6{
+        width: 100%;
+    }
+} 
+@media (width <= 500px) {
+    .s6Container header{
+        width: 100%;
+    }
+    .s6Container header h2{
+        font-size: 38px;
+    }
+}

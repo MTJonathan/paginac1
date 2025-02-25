@@ -1,0 +1,103 @@
+.seccion04 {
+  margin-bottom: 50px !important;
+}
+.s4Container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 20px;
+}
+.s4Container header {
+  display: grid;
+  gap: 23px;
+}
+.s4Container header h2 {
+  font-size: 55px;
+}
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+.btnsS4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+}
+.btnsS4 button {
+  padding: 10px 16px;
+  background-color: transparent;
+  border: 1.5px solid #9e9595;
+  border-radius: 13px;
+  color: #000;
+}
+.s4contentSlider {
+  display: grid;
+  justify-items: center;
+  height: 400px;
+  gap: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 23px;
+  overflow: hidden;
+}
+.s4contentSlider:active {
+  cursor: grabbing; /* Cursor de puño cerrado cuando se presiona */
+}
+.imgSlider img {
+  border-radius: 23px;
+  clip-path: polygon(
+    0% 15%,
+    15% 15%,
+    15% 0%,
+    85% 0%,
+    100% 0,
+    100% 15%,
+    100% 85%,
+    76% 85%,
+    76% 100%,
+    15% 100%,
+    0 100%,
+    0% 85%
+  );
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #000 !important;
+}
+.txtSlider button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 23px;
+  margin-top: 13px;
+  border: none;
+  background-color: #101010;
+}
+/* .swiper-button-prev:after, .swiper-button-next:after{
+  font-size: 25px !important;
+} */
+
+@media (width <= 1100px) {
+  .imgSlider {
+    height: 220px;
+  }
+  .s4Container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (width <= 950px) {
+  .s4Container {
+    padding: 0 50px;
+    grid-template-columns: 1fr;
+  }
+}
+@media (width <= 700px) {
+  .s4Container {
+    padding: 0;
+  }
+  .s4Container header h2 {
+    font-size: 38px;
+  }
+  .imgSlider {
+    height: 200px;
+  }
+}

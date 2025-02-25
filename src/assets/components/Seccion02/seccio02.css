@@ -1,0 +1,321 @@
+.seccion02 {
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.s2Cuadro {
+  display: flex;
+  border-radius: 32px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px;
+  background-image: url(../../IMG/fondoS2.jpeg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.s2Txt h2 {
+  font-size: 55px;
+  font-weight: 500;
+}
+
+/* Estilo para el contenedor de la imagen */
+.s2CuadroImg {
+  position: relative;
+  width: 400px;
+  height: 200px;
+}
+
+/* Estilos para el icono principal */
+.icono-principal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 50%;
+  background-image: url("https://www.gstatic.com/images/branding/product/1x/meet_48dp.png");
+  background-size: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+/* Estilos generales para iconos secundarios */
+.icono-secundario {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  background-size: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Posicionamiento y fondo para cada icono secundario */
+.icono-1 {
+  top: 20%;
+  left: 20%;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png");
+}
+
+.icono-2 {
+  top: 20%;
+  right: 20%;
+  background-image: url("https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png");
+}
+
+.icono-3 {
+  bottom: 20%;
+  left: 20%;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/732/732222.png");
+}
+
+/* Estilo para el título */
+.s2CuadroTxt h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Estilo para el párrafo */
+.s2CuadroTxt p {
+  font-size: 16px;
+}
+
+.seccion02Container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+.s2Titulo p {
+  width: 85%;
+  margin: 32px 0;
+}
+
+.s2DivLa {
+  display: grid;
+  grid-template-rows: 1.7fr 1fr;
+  gap: 15px;
+}
+.s2Divs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+.s2DLaItem,
+.s2DLbItem {
+  border-radius: 23px;
+  padding: 20px;
+}
+.s2DLaItem:nth-child(1) {
+  display: grid;
+  gap: 18px;
+  background-color: #f8f8f8;
+}
+
+.s2DLaItem:nth-child(2) {
+  background-color: #121212;
+  color: white;
+  height: 280px;
+}
+
+.s2DLaItem:nth-child(2) h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.s2DLaItem:nth-child(2) p {
+  font-size: 13px;
+  color: #cccccc;
+  line-height: 1.4;
+}
+
+/* Configuración del contenedor de imágenes */
+.s2DLaItem:nth-child(2) .s2DLaImg {
+  position: relative;
+  height: 160px;
+  width: 100%;
+}
+
+/* Iconos de redes sociales usando pseudo-elementos */
+.s2DLaItem:nth-child(2) .s2DLaImg::before,
+.s2DLaItem:nth-child(2) .s2DLaImg::after {
+  content: "";
+  position: absolute;
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #333333;
+  border-radius: 50%;
+}
+
+/* Icono principal (centro) */
+.s2DLaItem:nth-child(2) .s2DLaImg::before {
+  width: 70px;
+  height: 70px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #333333;
+  background-image: url("https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_wechat-512.png");
+  z-index: 2;
+}
+
+/* Configuración para los iconos secundarios */
+.s2DLaItem:nth-child(2) .s2DLaImg::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: none;
+}
+
+/* Añadimos los iconos secundarios usando elementos adicionales */
+.s2DLaItem:nth-child(2) .s2DLaImg {
+  position: relative;
+}
+
+/* WhatsApp */
+.s2DLaItem:nth-child(2) .s2DLaImg::before {
+  content: "";
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #333333;
+  border-radius: 50%;
+  background-image: url("https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_wechat-512.png");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 5;
+}
+
+/* Creamos los iconos de redes sociales mediante pseudo-elementos de la clase */
+.s2DLaItem:nth-child(2) .s2DLaImg {
+  position: relative;
+}
+
+.s2DLaItem:nth-child(2) .icono {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.s2DLaItem:nth-child(2) .icono-whatsapp {
+  width: 50px;
+  height: 50px;
+  top: 30px;
+  left: 20px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png");
+}
+
+.s2DLaItem:nth-child(2) .icono-messenger {
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+  left: 23px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Facebook_Messenger_logo_2020.svg/1200px-Facebook_Messenger_logo_2020.svg.png");
+}
+
+.s2DLaItem:nth-child(2) .icono-principal {
+  width: 70px;
+  height: 70px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_wechat-512.png");
+  z-index: 5;
+}
+
+.s2DLaItem:nth-child(2) .icono-instagram {
+  width: 50px;
+  height: 50px;
+  top: 30px;
+  right: 20px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png");
+}
+
+.s2DLaItem:nth-child(2) .icono-twitter {
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+  right: 28px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg");
+}
+
+.s2DivLb {
+  display: grid;
+  gap: 15px;
+}
+.s2DLbItem:nth-child(1) {
+  display: grid;
+  gap: 13px;
+  background-color: #bbfbdc;
+}
+.s2DLbItem:nth-child(2) {
+  background-color: #00ff80;
+}
+
+/* Media Queries */
+@media (width <= 1110px) {
+  .seccion02Container {
+    grid-template-columns: 1fr;
+    padding: 30px 50px;
+  }
+}
+@media (width <= 780px) {
+  .seccion02Container {
+    padding: 30px 13px;
+  }
+}
+@media (width <= 650px) {
+  .seccion02 {
+    border-radius: 50px;
+  }
+  .seccion02Container {
+    padding: 20px 40px;
+  }
+  .s2Divs {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .s2DLaItem,
+  .s2DLbItem {
+    text-align: center;
+    padding: 40px;
+  }
+  .s2DLbItem:nth-child(2) img {
+    width: 230px;
+    height: 200px;
+  }
+  .s2Titulo h2 {
+    font-size: 38px;
+  }
+}
+
+@media (width <= 500px) {
+  .s2DLaImg, .s2DLbImg, .s2CuadroImg{
+    display: none;
+  }
+  .s2DivLa{
+    grid-template-rows: 1fr 1fr;
+  }
+}
