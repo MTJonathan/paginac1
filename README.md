@@ -1,13 +1,13 @@
-# Diseño de Página 
+# 🎨 Diseño de Página  
 
-Desarrolle este proyecto en React utilizando SwiperJS para realizar un slider, siguiendo un mockup como referencia para lograr un diseño limpio, moderno y profesional.
+Desarrollé este proyecto en **React** utilizando **SwiperJS** para implementar un slider, siguiendo un **mockup** como referencia para lograr un diseño limpio, moderno y profesional.  
 
-🚀 Tecnologías Utilizadas:
-⚛ React - Para la estructura de la interfaz de usuario.
-🎠 SwiperJS - Para la navegación fluida de secciones con deslizamiento.
-🎨 CSS - Para el diseño responsivo y atractivo.
+## 🚀 Tecnologías Utilizadas  
+- ⚛ **React** - Para la estructura de la interfaz de usuario.  
+- 🎠 **SwiperJS** - Para la navegación fluida de secciones con deslizamiento.  
+- 🎨 **CSS** - Para el diseño responsivo y atractivo.  
 
-📷 Captura de Pantalla
-![royecto](./src/assets/IMG/pagina.png)
+## 📷 Captura de Pantalla  
+![Proyecto](./src/assets/IMG/pagina.png)  
 
-Link: https://paginabuho.netlify.app/
+🔗 **Link del proyecto:** [Visitar la página](https://paginabuho.netlify.app/)
