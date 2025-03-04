@@ -7,16 +7,16 @@ const ImgSeccion1 = () => {
       <div className="imgPrincipalS1">
         <img src={Banner} alt="Banner" />
         <div className="tutorialS1">
-            <span>Watch Tutorial </span><Play/>
+            <span>Ver tutorial</span><Play/>
         </div>
       </div>
       <div className="imgS1Item">
         <h2>+ 500</h2>
-        <p>Big companies use Rotar Ai for their services</p>
+        <p>Las grandes empresas usan Rotar AI para sus servicios.</p>
       </div>
       <div className="imgS1Item">
         <h2><Star/><Star/><Star/></h2>
-        <p>AI-driven customer service</p>
+        <p>Servicio al cliente impulsado por IA</p>
       </div>
       
     </div>
