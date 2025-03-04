@@ -6,15 +6,15 @@ const Nav = () => {
     <nav className='nav'>
       <div className="logo"><span><Logo /></span> <span>Rotar AI</span></div>  
       <ul>
-        <li><a href="">Product</a></li>
-        <li><a href="">Solutions</a></li>
-        <li><a href="">Resourse</a></li>
-        <li><a href="">Pricing</a></li>
+        <li><a href="">Producto</a></li>
+        <li><a href="">Soluciones</a></li>
+        <li><a href="">Recurso</a></li>
+        <li><a href="">Precios</a></li>
       </ul>
       <div className="Options">
         <ul>
-            <li><a href="">Login</a></li>
-            <li><a href="">Book a demo <span><Flecha /></span></a></li>
+            <li><a href="">Acceso</a></li>
+            <li><a href="">Reserva una demo<span><Flecha /></span></a></li>
         </ul>
       </div>
     </nav>

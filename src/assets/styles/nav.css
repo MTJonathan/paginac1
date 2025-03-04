@@ -26,6 +26,7 @@
     align-items: center;
 }
 .nav .Options ul li:nth-child(2){
+    position: relative;
     background-color: #00ff7e;
     border-radius: 18px;
 }
@@ -36,7 +37,10 @@
 }
 
 .nav .Options ul li:nth-child(2) a span svg{
-    font-size: 20px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    font-size: 23px;
 }
 
 @media(width <= 900px){
