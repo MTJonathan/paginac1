@@ -5,34 +5,35 @@ const FooterHeader = () => {
     <header className="footerTxt">
       <div className="footerDiv">
         <div className="fDivItem">
-          <h3>Company</h3>
+          <h3>Empresa</h3>
           <ul>
-            <li>About Rotar AI</li>
-            <li>Pricing</li>
+            <li>Sobre Rotar AI</li>
+            <li>Precios</li>
             <li>Demo</li>
           </ul>
         </div>
         <div className="fDivItem">
-          <h3>Recources</h3>
+          <h3>Recursos</h3>
           <ul>
-            <li>BlogI</li>
-            <li>Events</li>
-            <li>Tool Library</li>
+            <li>Blog</li>
+            <li>Eventos</li>
+            <li>Herramientas</li>
           </ul>
         </div>
         <div className="fDivItem">
           <h3>Legal</h3>
           <ul>
-            <li>Terms of Use</li>
-            <li>Privacy Policy</li>
+            <li>Términos de uso</li>
+            <li>Política de privacidad</li>
           </ul>
         </div>
       </div>
       <div className="footerTitulo">
         <h2>Rotar AI</h2>
         <p>
-          We are at the forenfront of AI chatbot development, revolutionizing
-          the way businesses engage with their customers.
+          Estamos a la vanguardia del desarrollo de chatbots de IA,
+          revolucionando la forma en que las empresas interactúan con sus
+          clientes.
         </p>
       </div>
     </header>

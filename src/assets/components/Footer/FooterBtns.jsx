@@ -11,7 +11,7 @@ const FooterBtns = () => {
       </div>
       <div className="fBtnGrande">
         <a href="#" className="footerbtnAmplio">
-          <Logo /> Rotar AI. All Rights Reserved
+          <Logo /> Rotar AI. Todos los derechos reservados.
         </a>
       </div>
     </footer>
