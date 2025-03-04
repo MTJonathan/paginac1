@@ -65,12 +65,20 @@
   color: #000 !important;
 }
 .txtSlider button {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   padding: 10px;
   border-radius: 23px;
   margin-top: 13px;
   border: none;
   background-color: #101010;
+}
+
+.txtSlider button svg {
+  font-size: 18px;
 }
 /* .swiper-button-prev:after, .swiper-button-next:after{
   font-size: 25px !important;
