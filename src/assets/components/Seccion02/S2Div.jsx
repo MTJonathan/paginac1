@@ -11,15 +11,16 @@ const S2Div = () => {
             <img src={s2Chat} alt="" />
           </div>
           <div className="s2DLaTxt">
-            <h3>Boost conversations 96% with AI</h3>
-            <p>Our AI-powered chatbot and automation tools are here to help</p>
+            <h3>Mejora las conversaciones un 96% con IA</h3>
+            <p>Chatbot y automatización para optimizar tu servicio</p>
           </div>
         </div>
         <div className="s2DLaItem">
           <div className="s2DLaTxt">
-            <h2>Centralize your Communication</h2>
+            <h2>Centraliza tu comunicación</h2>
             <p>
-              Easily respond to chats from all of your channels in one overview
+              Responde fácilmente a los chats de todos tus canales en un solo
+              lugar
             </p>
           </div>
           <div className="s2DLaImg">
@@ -35,8 +36,8 @@ const S2Div = () => {
       <div className="s2DivLb">
         <div className="s2DLbItem">
           <div className="s2DLbTxt">
-            <h3>Always accessible with our live chat</h3>
-            <p>Enhance Communication with Real-Time Live Chat.</p>
+            <h3>Siempre accesible con nuestro chat en vivo</h3>
+            <p>Mejora la comunicación con chat en vivo en tiempo real.</p>
           </div>
           <div className="s2DLbImg">
             <img src={s2ChatVacio} alt="" />
@@ -48,10 +49,10 @@ const S2Div = () => {
             <img src={s2Barraporcentaje} alt="" />
           </div>
           <div className="s2DLbTxt">
-            <h3>Gain valuable insights from your audience</h3>
+            <h3>Obtén información valiosa de tu audiencia</h3>
             <p>
-              Statistics provide valuable insights into how customers interact
-              with Rotar AI.
+              Las estadísticas revelan cómo los clientes interactúan con Rotar
+              AI.
             </p>
           </div>
         </div>

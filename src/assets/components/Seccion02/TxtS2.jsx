@@ -4,14 +4,13 @@ const TxtS2 = () => {
       <div className="s2Txt">
         <div className="s2Titulo">
           <h2>
-            Deliver a higth- quality{" "}
-            <span className="resaltarVerde">customer</span>{" "}
-            <span className="resaltarVerde">experience</span>
+            Ofrece una <span className="resaltarVerde">experiencia</span> de{" "}
+            <span className="resaltarVerde">cliente</span> de calidad
           </h2>
           <p>
-            Embrace AI chatbot technology in a GPT-4-supported communication
-            tool to help your customers, empower your team, and reduce your
-            workload.
+            Adopta la tecnología de chatbots con IA en una herramienta de
+            comunicación con soporte GPT-4 para ayudar a tus clientes,
+            fortalecer tu equipo y reducir tu carga de trabajo.
           </p>
         </div>
         <div className="s2Cuadro">
@@ -22,11 +21,11 @@ const TxtS2 = () => {
             <div className="icono-secundario icono-3"></div>
           </div>
           <div className="s2CuadroTxt">
-            <h3>Automate your workflow with our integrations</h3>
+            <h3>Automatiza tu flujo de trabajo con nuestras integraciones.</h3>
             <p>
-              Connect Rotar AI with your customer services, sales, marketing,
-              and recruitment tools using our user-friendly API, webhooks, or
-              Zepier integrations.
+              Conecta Rotar AI con tus herramientas de servicio al cliente,
+              ventas, marketing y reclutamiento mediante nuestra API fácil de
+              usar, webhooks o integraciones con Zapier.
             </p>
           </div>
         </div>
