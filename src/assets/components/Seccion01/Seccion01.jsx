@@ -1,4 +1,5 @@
 import "./seccion01.css";
+import "./animaciones.css"
 import TxtSeccion from "./TxtSeccion";
 import ImgSeccion1 from "./imgSeccion1.jsx";
 

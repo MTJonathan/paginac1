@@ -3,7 +3,7 @@ import React from "react";
 const TxtSeccion = () => {
   return (
     <div className="txtSeccion1">
-      <div className="titulo">
+      <header className="titulo">
         <h1>
           El compañero definitivo de <span>servicio</span> al{" "}
           <span>cliente</span> con IA
@@ -13,7 +13,7 @@ const TxtSeccion = () => {
           comunicación con soporte GPT-4 para ayudar a tus clientes, potenciar
           tu equipo y reducir tu carga de trabajo.
         </p>
-      </div>
+      </header>
       <div className="cuadro">
         <div className="cuadroContainer">
           <div className="cuadroTxt">

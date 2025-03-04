@@ -5,10 +5,19 @@
 .seccion01 h1 {
   font-size: 51px;
   font-weight: 500;
+  display: inline-block;
+  overflow: hidden;
+  animation: typing 1.3s steps(40, end) forwards;
+  clip-path: inset(0 100% 0 0); /* Oculta el texto y lo va mostrando */
+}
+.cuadroTxt p{
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
 }
 .seccion01 .titulo p {
   width: 85%;
   margin: 23px 0;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 .txtSeccion1 {
   display: grid;
@@ -51,6 +60,7 @@
 }
 .txtSeccion1 .cuadro h2 {
   font-weight: 500;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 .txtSeccion1 .cuadro a {
   color: #333333;
@@ -100,11 +110,13 @@
     0 100%,
     0% 85%
   );
+  animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .imgS1Item {
   padding: 28px 23px;
   border-radius: 32px;
   background-color: #bafbcf;
+  animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .imgS1Item:nth-child(2) h2 {
   font-size: 38px;
@@ -128,6 +140,8 @@
   border-radius: 13px;
   background-color: #00ff7e;
   position: absolute;
+  animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both,
+             shake-horizontal 1.2s 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 }
 
 @media (width <= 1239px){
