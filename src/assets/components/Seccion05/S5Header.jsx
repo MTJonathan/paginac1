@@ -5,12 +5,12 @@ const S5Header = () => {
     <header>
       <div className="s5HeaderContainer">
         <div className="s5Titulo">
-          <h2>What top-tier companies tell about our product</h2>
+          <h2>¿Qué dicen las empresas sobre nuestro producto?</h2>
         </div>
         <div className="s5TituloTxt">
           <p>
-            Join the growing number of businesses and companies that have
-            experienced the transformative impact of our chatbot services.
+            Únete a la creciente comunidad de empresas que han experimentado el
+            impacto transformador de nuestros chatbots.
           </p>
         </div>
       </div>

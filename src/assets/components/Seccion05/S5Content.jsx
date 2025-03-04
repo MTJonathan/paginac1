@@ -10,7 +10,7 @@ const S5Content = () => {
           <img src={s5Img} alt="" />
           <div className="s5TxtImg">
             <h3>Mbida Messi</h3>
-            <p>Fouder ERC Music Market Store</p>
+            <p>Fundador de ERC Music Market Store</p>
           </div>
         </div>
         <div className="s5ContentTxt">
@@ -19,19 +19,21 @@ const S5Content = () => {
               <i>
                 <Comillas />
               </i>
-              <span>Client Testimonial</span>
+              <span>Opinión Cliente</span>
             </div>
             <p>
-              I was amazed by the level of assistance I received from the AI
-              Chatbot provided by ROTAR AI. It quickly understood my questions
-              and provided accurate and helpful responses.
+              Me impresionó el increíble nivel de asistencia y eficiencia del
+              chatbot de IA de ROTAR AI. Entendió mis preguntas rápidamente y
+              brindó respuestas precisas y útiles.
             </p>
           </div>
           <footer className="s5ContentBtn">
             <div className="s5btnsnums">
               <span>1 / 4</span>
             </div>
-            <button>See more testimoni <Flecha /></button>
+            <button>
+              Ver más testimonios <Flecha />
+            </button>
           </footer>
         </div>
       </div>
