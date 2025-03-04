@@ -24,11 +24,18 @@
 }
 
 .S3Contanier header .s3Txt button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   border-radius: 32px;
   border: none;
   color: #ffffff;
   background-color: #000;
   padding: 15px;
+}
+.S3Contanier header .s3Txt button svg {
+  font-size: 17px;
 }
 .S3Contanier header .tituloS3 h2 {
   font-size: 50px;

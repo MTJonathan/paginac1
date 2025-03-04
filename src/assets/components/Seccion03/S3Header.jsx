@@ -4,17 +4,17 @@ const S3Header = () => {
   return (
     <header>
       <div className="s3Txt">
-        Throughout your customer's entire buying journey, Rotar AI allow you to
-        deligth thern at every step of the way, from their first visit to the
-        final purchase.
+        A lo largo de todo el proceso de compra, Rotar AI te permite sorprender
+        a tus clientes en cada paso, desde su primera visita hasta la compra
+        final.
         <button>
-          Get Started <Flecha />
+          Comenzar <Flecha />
         </button>
       </div>
       <div className="tituloS3">
         <h2>
-          <span className="resaltarVerde">Redefining</span> Conversations and{" "}
-          <span className="resaltarVerde">Enhancing</span> use experience
+          <span className="resaltarVerde">Redefiniendo</span> conversaciones y{" "}
+          <span className="resaltarVerde">mejorando</span> la experiencia de uso
         </h2>
       </div>
     </header>

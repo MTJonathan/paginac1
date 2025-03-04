@@ -6,24 +6,25 @@ const S3Divs = () => {
     <div className="s3Divs">
       <div className="s3DItem">
         <div className="s3DTxt">
-          <h3>Engage</h3>
+          <h3>Involucra</h3>
           <p>
-            Reach out to visitors proactively using personalized chatbot
-            greetings. Turn website visits into sales opportunities.
+            Conecta con los visitantes con saludos personalizados y convierte
+            visitas en oportunidades de venta.
           </p>
         </div>
         <div className="s3DTxt">
-          <h3>Nurture</h3>
+          <h3>Fideliza</h3>
           <p>
-            Lead customers to a sale througth recommended purchases and tailored
-            offerings.
+            Guía a los clientes hacia la compra con recomendaciones y ofertas
+            personalizadas.
           </p>
         </div>
         <div className="s3DTxt">
-          <h3>Qualify</h3>
+          <h3>Califica</h3>
           <p>
-            Generate and quaify prospects automatically. Transfer higth-intent
-            leads to yout sales reps in real time to shorten the sales cycle.
+            Genera y clasifica prospectos automáticamente. Transfiere leads con
+            alta intención a tu equipo de ventas en tiempo real para acelerar el
+            proceso.
           </p>
         </div>
       </div>
