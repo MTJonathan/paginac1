@@ -1,8 +1,18 @@
 
 .logosContainer{
-    display: flex;
+    margin: 50px;
+}
+.logoSlide{
+    display: grid !important;
+    align-items: center !important;
+    height: 144px !important;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 50px;
+    margin-right: 32px;
+}
+
+.svgLogo{
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    max-height: 150px;
 }
