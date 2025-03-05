@@ -12,10 +12,19 @@
 }
 .s4Container header h2 {
   font-size: 55px;
+  animation: typing steps(40, end) forwards;
+  clip-path: inset(0 100% 0 0);
+  view-timeline-name: --reveal;
+  animation-timeline: --reveal; 
+  animation-range: entry 25% cover 50%;
 }
 .slider {
   width: 100%;
   overflow: hidden;
+  animation: tilt-in-top-1 cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  view-timeline-name: --reveal;
+  animation-timeline: --reveal; 
+  animation-range: entry 25% cover 50%;
 }
 .btnsS4 {
   display: flex;
@@ -28,6 +37,10 @@
   border: 1.5px solid #9e9595;
   border-radius: 13px;
   color: #000;
+  animation: slide-in-elliptic-top-fwd cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  view-timeline-name: --reveal;
+  animation-timeline: --reveal; 
+  animation-range: entry 25% cover 25%;
 }
 .s4contentSlider {
   display: grid;

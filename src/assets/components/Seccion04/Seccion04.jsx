@@ -1,4 +1,5 @@
 import "./Seccion04.css";
+import "./animaciones.css";
 import MySwiper from "./S4Slider";
 
 const Seccion04 = () => {
