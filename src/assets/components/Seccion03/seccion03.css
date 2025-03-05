@@ -21,6 +21,10 @@
   background-color: #f5f5f5;
   border-radius: 20px;
   border-bottom-left-radius: 0;
+  animation: roll-in-blurred-left cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+  view-timeline-name: --reveal;
+  animation-timeline: --reveal; 
+  animation-range: entry 25% cover 30%;
 }
 
 .S3Contanier header .s3Txt button {
@@ -40,6 +44,11 @@
 .S3Contanier header .tituloS3 h2 {
   font-size: 50px;
   font-weight: 500;
+  animation: typing 1.3s steps(40, end) forwards;
+  view-timeline-name: --reveal;
+  clip-path: inset(0 100% 0 0);
+  animation-timeline: --reveal; 
+  animation-range: entry 25% cover 50%;
 }
 
 .s3Divs {
@@ -56,6 +65,10 @@
   display: grid;
   gap: 10px;
   padding: 23px;
+  animation: slide-in-blurred-top cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+  view-timeline-name: --reveal;
+  animation-timeline: --reveal; 
+  animation-range: entry 25% cover 30%;
 }
 .s3DItem:nth-child(1) .s3DTxt h3{
   font-size: 20px;
@@ -66,7 +79,10 @@
 }
 .s3DItem:nth-child(2) img{
   border-radius: 32px;
-
+  animation: slit-in-vertical 0.45s ease-out both;
+  view-timeline-name: --reveal;
+  animation-timeline: --reveal; 
+  animation-range: entry 25% cover 30%;
 }
 @media(width <= 1110px){
     .s3Divs{

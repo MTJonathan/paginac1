@@ -1,4 +1,5 @@
 import "./seccion03.css";
+import "./animaciones.css"
 import S3Header from "./S3Header";
 import S3Divs from "./S3Divs";
 
