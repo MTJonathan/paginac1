@@ -1,4 +1,5 @@
 import "./seccio02.css";
+import "./animaciones.css"
 import TxtS2 from "./TxtS2";
 import S2Div from "./S2Div";
 const Seccion02 = () => {

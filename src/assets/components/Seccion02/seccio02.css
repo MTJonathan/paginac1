@@ -13,10 +13,17 @@
   background-position: center;
   background-size: cover;
   text-align: center;
+  animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation-timeline: scroll(root block); 
+  animation-range: 0 1050px;
 }
 .s2Txt h2 {
   font-size: 55px;
   font-weight: 500;
+  animation: typing 1.3s steps(40, end) forwards;
+  clip-path: inset(0 100% 0 0);
+  animation-timeline: scroll(root block); 
+  animation-range: 0 1000px;
 }
 
 /* Estilo para el contenedor de la imagen */
@@ -97,6 +104,9 @@
 .s2Titulo p {
   width: 85%;
   margin: 32px 0;
+  animation: text-focus-in cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation-timeline: scroll(root block); 
+  animation-range: 0 980px;
 }
 
 .s2DivLa {
@@ -113,6 +123,9 @@
 .s2DLbItem {
   border-radius: 23px;
   padding: 20px;
+  animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation-timeline: scroll(root block); 
+  animation-range: 0 1000px;
 }
 .s2DLaItem:nth-child(1) {
   display: grid;
