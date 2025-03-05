@@ -3,6 +3,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 6rem;
+    animation: typing 1.3s steps(40, end) forwards;
+    clip-path: inset(0 100% 0 0); /* Oculta el texto y lo va mostrando */
 }
 .nav .logo{
     display: grid;
