@@ -1,4 +1,5 @@
 import './Seccion05.css'
+import "./animaciones.css"
 import S5Header from './S5Header'
 import S5Content from './S5Content'
 

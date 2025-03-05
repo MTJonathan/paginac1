@@ -17,6 +17,11 @@
 .s5Titulo h2 {
   font-size: 55px;
   font-weight: 500;
+  animation: typing steps(40, end) forwards;
+  clip-path: inset(0 100% 0 0);
+  view-timeline-name: --reveal;
+  animation-timeline: --reveal; 
+  animation-range: entry 25% cover 50%;
 }
 .s5TituloTxt {
   display: grid;
@@ -27,6 +32,10 @@
   border-radius: 23px;
   background-color: #f5f5f5;
   padding: 23px 32px;
+  animation: tilt-in-fwd-tr cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  view-timeline-name: --reveal;
+  animation-timeline: --reveal; 
+  animation-range: entry 25% cover 50%;
 }
 
 .s5ContentContainer {
@@ -62,6 +71,10 @@
     0 100%,
     0% 85%
   );
+  animation: slide-in-elliptic-left-fwd cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  view-timeline-name: --reveal;
+  animation-timeline: --reveal; 
+  animation-range: entry 25% cover 32%;
 }
 .s5TxtImg {
   position: absolute;
@@ -78,7 +91,10 @@
   position: relative;
   padding: 13px 23px;
   right: 25px;
-  /* margin-right: 50px; */
+  animation: slide-in-blurred-br cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+  view-timeline-name: --reveal;
+  animation-timeline: --reveal; 
+  animation-range: entry 25% cover 40%;
 }
 .s5TxtContent {
   display: grid;
@@ -146,6 +162,10 @@
   border-radius: 23px;
   border: none;
   background-color: #101010;
+  animation: shake-horizontal cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  view-timeline-name: --reveal; 
+  animation-timeline: --reveal; 
+  animation-range: entry 25% cover 50%;
 }
 .s5ContentBtn button svg {
   font-size: 20px;
