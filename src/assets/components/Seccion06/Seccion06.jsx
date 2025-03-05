@@ -1,4 +1,5 @@
 import "./Seccion06.css";
+import "./animaciones.css"
 import { Flecha, Phone } from "../svg/svg";
 
 const Seccion06 = () => {

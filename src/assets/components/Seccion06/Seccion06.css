@@ -1,75 +1,101 @@
-.seccion06{
-    background-color: #00ff80;
-    margin-bottom: 50px !important;
-    border-radius: 20px;
-    padding: 80px 50px !important;
-    clip-path: polygon(0% 15%, 0 0, 15% 0%, 74% 0, 74% 16%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 20% 100%, 20% 90%, 0 90%);
+.seccion06 {
+  background-color: #00ff80;
+  margin-bottom: 50px !important;
+  border-radius: 20px;
+  padding: 80px 50px !important;
+  clip-path: polygon(
+    0% 15%,
+    0 0,
+    15% 0%,
+    74% 0,
+    74% 16%,
+    100% 15%,
+    100% 85%,
+    85% 85%,
+    85% 100%,
+    20% 100%,
+    20% 90%,
+    0 90%
+  );
 }
 
-.s6Container{
-    display: grid;
-    gap: 32px;
+.s6Container {
+  display: grid;
+  gap: 32px;
 }
-.s6Container header{
-    width: 80%;
+.s6Container header {
+  width: 80%;
 }
-.s6Container header h2{
-    font-size: 55px;
+.s6Container header h2 {
+  font-size: 55px;
+  animation: typing steps(40, end) forwards;
+  clip-path: inset(0 100% 0 0);
+  view-timeline-name: --reveal;
+  animation-timeline: --reveal;
+  animation-range: entry 25% cover 50%;
 }
-.s6txt{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-    justify-content: space-between;
+.s6txt {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: space-between;
 }
-.txtS6{
-    width: 35%;
+.txtS6 {
+  width: 35%;
+  animation: text-focus-in cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  view-timeline-name: --reveal;
+  animation-timeline: --reveal;
+  animation-range: entry 25% cover 30%;
 }
-.btnS6{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
+.btnS6 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
 }
-.btnS6 a{
-    display: flex;
-    gap: 13px;
-    padding: 0 20px;
-    text-decoration: none;
-    color: #000;
-    align-items: center;
-    border-radius: 23px;
-    border: 1px solid #000;
+.btnS6 a {
+  display: flex;
+  gap: 13px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #000;
+  align-items: center;
+  border-radius: 23px;
+  border: 1px solid #000;
+  animation: bounce-in-bottom both;
+  view-timeline-name: --reveal;
+  animation-timeline: --reveal;
+  animation-range: entry 0% cover 30%;
 }
-.btnS6 a:nth-child(1){
-    background-color: #000;
-    color: #FFFFFF;
+.btnS6 a:nth-child(1) {
+  background-color: #000;
+  color: #ffffff;
 }
-.btnS6 a:nth-child(1) svg{
-    font-size: 20px;
+.btnS6 a:nth-child(1) svg {
+  font-size: 20px;
 }
 @media (width <= 1220px) {
-    .txtS6{
-        width: 50%;
-    }
+  .txtS6 {
+    width: 50%;
+  }
 }
 @media (width <= 1000px) {
-    .seccion06{
-        clip-path: none;
-    }
+  .seccion06 {
+    clip-path: none;
+  }
 }
-@media (width <= 914px){
-    .btnS6 a{
-        padding: 15px 20px;
-    }
-    .txtS6{
-        width: 100%;
-    }
-} 
+@media (width <= 914px) {
+  .btnS6 a {
+    padding: 15px 20px;
+  }
+  .txtS6 {
+    width: 100%;
+  }
+}
 @media (width <= 500px) {
-    .s6Container header{
-        width: 100%;
-    }
-    .s6Container header h2{
-        font-size: 38px;
-    }
+  .s6Container header {
+    width: 100%;
+  }
+  .s6Container header h2 {
+    font-size: 38px;
+  }
 }
