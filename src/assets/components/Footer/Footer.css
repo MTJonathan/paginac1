@@ -5,6 +5,10 @@
   margin-top: 80px !important;
   margin-bottom: 50px !important;
   padding: 80px 80px 60px;
+  animation: bounce-in-bottom 1.1s both;
+  view-timeline-name: --reveal;
+  animation-timeline: --reveal;
+  animation-range: entry 15% cover 50%;
 }
 .footerContainer {
   display: grid;
@@ -22,13 +26,34 @@
 .footerTitulo h2 {
   margin-top: -20px;
   font-size: 55px;
+  animation: typing steps(40, end) forwards;
+  clip-path: inset(0 100% 0 0);
+  view-timeline-name: --reveal;
+  animation-timeline: --reveal;
+  animation-range: entry 25% cover 50%;
 }
-
+.footerTitulo p {
+  animation: text-focus-in cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  view-timeline-name: --reveal;
+  animation-timeline: --reveal;
+  animation-range: entry 25% cover 30%;
+}
+.fDivItem h3 {
+  animation: typing steps(40, end) forwards;
+  clip-path: inset(0 100% 0 0);
+  view-timeline-name: --reveal;
+  animation-timeline: --reveal;
+  animation-range: entry 25% cover 50%;
+}
 .fDivItem ul {
   margin-top: 13px;
   display: grid;
   list-style: none;
   gap: 13px;
+  animation: text-focus-in cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  view-timeline-name: --reveal;
+  animation-timeline: --reveal;
+  animation-range: entry 25% cover 30%;
 }
 
 .footerBtns {
@@ -49,49 +74,105 @@
   padding: 5px 18px;
   text-decoration: none;
   color: #ffffff;
+  animation: slide-in-elliptic-top-fwd cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  view-timeline-name: --reveal;
+  animation-timeline: --reveal;
+  animation-range: entry 0% cover 18%;
 }
 .fBtnsRedes {
   display: flex;
   flex-wrap: wrap;
   gap: 23px;
 }
+@keyframes bounce-in-bottom {
+  0% {
+    -webkit-transform: translateY(500px);
+    transform: translateY(500px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    -webkit-transform: translateY(65px);
+    transform: translateY(65px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  72% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  81% {
+    -webkit-transform: translateY(28px);
+    transform: translateY(28px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  90% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  95% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
 
-@media(width <= 1023px){
-    .footer{
-        padding: 80px 100px 60px;;
-    }
-    .footerTxt{
-        grid-template-columns: 1fr;
-        gap: 50px;
-    }
-    .footerTxt .footerTitulo{
-        grid-row-start: 1;
-    }
-    .footerDiv{
-        justify-content: space-between;
-    }
+@media (width <= 1023px) {
+  .footer {
+    padding: 80px 100px 60px;
+  }
+  .footerTxt {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  .footerTxt .footerTitulo {
+    grid-row-start: 1;
+  }
+  .footerDiv {
+    justify-content: space-between;
+  }
 }
-@media(width <= 990px){
-    .footerBtns{
-        grid-template-columns: 1fr;
-    }
+@media (width <= 990px) {
+  .footerBtns {
+    grid-template-columns: 1fr;
+  }
 }
-@media(width <= 720px){
-    .footer{
-        padding: 80px 50px 60px;
-    }
-    .footerDiv{
-        justify-content: center;
-    }
+@media (width <= 720px) {
+  .footer {
+    padding: 80px 50px 60px;
+  }
+  .footerDiv {
+    justify-content: center;
+  }
 }
-@media(width <= 500px){
-    .footerTitulo h2{
-        font-size: 40px;
-    }
+@media (width <= 500px) {
+  .footerTitulo h2 {
+    font-size: 40px;
+  }
 }
-@media(width <= 400px){
-    .footer{
-        padding-top: 80px !important;
-        padding-bottom: 50px !important;
-    }
+@media (width <= 400px) {
+  .footer {
+    padding-top: 80px !important;
+    padding-bottom: 50px !important;
+  }
 }

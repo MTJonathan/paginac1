@@ -126,9 +126,15 @@
   color: #ffffff;
   background: linear-gradient(135deg, #25292d 0%, #7d7979 100%);
 }
+.imgS1Item:nth-child(2) p {
+  animation: typing 1.3s steps(40, end) forwards;
+  animation-range: none;
+}
 .imgS1Item:nth-child(3) p {
   font-size: 23px;
   font-weight: 400;
+  animation: typing 1.3s steps(40, end) forwards;
+  animation-range: none;
 }
 
 .tutorialS1 {
