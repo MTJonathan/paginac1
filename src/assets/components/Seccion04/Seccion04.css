@@ -91,6 +91,10 @@
   background-color: #101010;
 }
 
+.txtSlider p{
+  animation: none;
+}
+
 .txtSlider button svg {
   font-size: 18px;
 }
