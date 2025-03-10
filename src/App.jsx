@@ -11,7 +11,7 @@ import Footer from "./assets/components/Footer/Footer";
 
 function App() {
   return (
-    <>
+    <main>
       <Nav />
       <Seccion01 />
       <Logos />
@@ -21,7 +21,7 @@ function App() {
       <Seccion05 />
       <Seccion06 />
       <Footer />
-    </>
+    </main>
   );
 }
 
