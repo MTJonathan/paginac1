@@ -8,6 +8,5 @@ Desarrollé este proyecto en **React** utilizando **SwiperJS** para implementar 
 - 🎨 **CSS** - Para el diseño responsivo y atractivo.  
 
 ## 📷 Captura de Pantalla  
-![Proyecto](./src/assets/IMG/pagina.png)  
-
 🔗 **Link del proyecto:** [Visitar la página](https://paginabuho.netlify.app/)
+![Proyecto](./src/assets/IMG/pagina.png)  
