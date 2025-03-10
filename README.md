@@ -9,4 +9,4 @@ Desarrollé este proyecto en **React** utilizando **SwiperJS** para implementar 
 
 ## 📷 Captura de Pantalla  
 🔗 **Link del proyecto:** [Visitar la página](https://paginabuho.netlify.app/)
-![Proyecto](./src/assets/IMG/pagina.png)  
+![Proyecto](./src/assets/IMG/paginaCaptura.png)  
