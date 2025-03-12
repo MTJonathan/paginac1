@@ -5,4 +5,5 @@ import { initReactI18next } from "react-i18next";
 i18next.use(Backend).use(initReactI18next).init({
   fallbackLng: "es",
   debug: true,
+  interpolation: { escapeValue: false },
 });
