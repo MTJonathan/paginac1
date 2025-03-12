@@ -6,11 +6,14 @@ import Seccion03 from "./assets/components/Seccion03/Seccion03";
 import Seccion04 from "./assets/components/Seccion04/Seccion04";
 import Seccion05 from "./assets/components/Seccion05/Seccion05";
 import Seccion06 from "./assets/components/Seccion06/Seccion06";
-import "./App.css";
 import Footer from "./assets/components/Footer/Footer";
+import "./App.css";
 
-function App() {
-  return (
+import { useTranslation } from "react-i18next";
+import { Suspense } from "react";
+
+const MainPage = () =>{
+  return(
     <main>
       <Nav />
       <Seccion01 />
@@ -22,6 +25,14 @@ function App() {
       <Seccion06 />
       <Footer />
     </main>
+  )
+}
+
+function App() {
+  return (
+    <Suspense fallback="loading">
+      <MainPage />
+    </Suspense>
   );
 }
 
