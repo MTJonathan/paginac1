@@ -1,17 +1,13 @@
+import { useTranslation } from "react-i18next";
+
 const TxtS2 = () => {
+  const { t } = useTranslation("seccion02");
   return (
     <div>
       <div className="s2Txt">
         <div className="s2Titulo">
-          <h2>
-            Ofrece una <span className="resaltarVerde">experiencia</span> de{" "}
-            <span className="resaltarVerde">cliente</span> de calidad
-          </h2>
-          <p>
-            Adopta la tecnología de chatbots con IA en una herramienta de
-            comunicación con soporte GPT-4 para ayudar a tus clientes,
-            fortalecer tu equipo y reducir tu carga de trabajo.
-          </p>
+          <h2 dangerouslySetInnerHTML={{ __html: t("title") }} />
+          <p>{t("description")}</p>
         </div>
         <div className="s2Cuadro">
           <div className="s2CuadroImg">
@@ -21,12 +17,8 @@ const TxtS2 = () => {
             <div className="icono-secundario icono-3"></div>
           </div>
           <div className="s2CuadroTxt">
-            <h3>Automatiza tu flujo de trabajo con nuestras integraciones.</h3>
-            <p>
-              Conecta Rotar AI con tus herramientas de servicio al cliente,
-              ventas, marketing y reclutamiento mediante nuestra API fácil de
-              usar, webhooks o integraciones con Zapier.
-            </p>
+            <h3>{t("subtitleCuadro")}</h3>
+            <p>{t("descriptionCuadro")}</p>
           </div>
         </div>
       </div>
