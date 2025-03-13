@@ -1,21 +1,18 @@
 import { Flecha } from "../svg/svg";
+import { useTranslation } from "react-i18next";
 
 const S3Header = () => {
+  const { t } = useTranslation("seccion03");
   return (
     <header>
       <div className="s3Txt">
-        A lo largo de todo el proceso de compra, Rotar AI te permite sorprender
-        a tus clientes en cada paso, desde su primera visita hasta la compra
-        final.
+        {t("description")}
         <button>
-          Comenzar <Flecha />
+          {t("button")} <Flecha />
         </button>
       </div>
       <div className="tituloS3">
-        <h2>
-          <span className="resaltarVerde">Redefiniendo</span> conversaciones y{" "}
-          <span className="resaltarVerde">mejorando</span> la experiencia de uso
-        </h2>
+        <h2 dangerouslySetInnerHTML={{ __html: t("title") }} />
       </div>
     </header>
   );

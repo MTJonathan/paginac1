@@ -1,31 +1,23 @@
 import React from "react";
 import s3Cuadro from "../../IMG/s3Cuadro.png";
+import { useTranslation } from "react-i18next";
 
 const S3Divs = () => {
+  const { t } = useTranslation("seccion03");
   return (
     <div className="s3Divs">
       <div className="s3DItem">
         <div className="s3DTxt">
-          <h3>Involucra</h3>
-          <p>
-            Conecta con los visitantes con saludos personalizados y convierte
-            visitas en oportunidades de venta.
-          </p>
+          <h3>{t("subtitle")}</h3>
+          <p>{t("descriptionDiv")}</p>
         </div>
         <div className="s3DTxt">
-          <h3>Fideliza</h3>
-          <p>
-            Guía a los clientes hacia la compra con recomendaciones y ofertas
-            personalizadas.
-          </p>
+          <h3>{t("subtitle2")}</h3>
+          <p>{t("descriptionDiv2")}</p>
         </div>
         <div className="s3DTxt">
-          <h3>Califica</h3>
-          <p>
-            Genera y clasifica prospectos automáticamente. Transfiere leads con
-            alta intención a tu equipo de ventas en tiempo real para acelerar el
-            proceso.
-          </p>
+          <h3>{t("subtitle3")}</h3>
+          <p>{t("descriptionDiv3")}</p>
         </div>
       </div>
       <div className="s3DItem">
