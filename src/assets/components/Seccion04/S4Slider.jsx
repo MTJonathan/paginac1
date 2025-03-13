@@ -10,6 +10,7 @@ import "swiper/css";
 import "swiper/css/navigation"; // Importa los estilos de navegación
 
 const MySwiper = () => {
+  const slides = txtSlide();
   return (
     <Swiper
       spaceBetween={50}
@@ -23,7 +24,7 @@ const MySwiper = () => {
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
     >
-      {txtSlide.map((item, index) => (
+      {slides.map((item, index) => (
         <SwiperSlide key={index}>
           <S4contentSlider img={item.img} titulo={item.titulo} txt={item.txt} />
         </SwiperSlide>
