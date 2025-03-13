@@ -32,6 +32,7 @@ const Nav = () => {
           <select value={idioma} onChange={(e) => changeLanguage(e.target.value)}>
             <option value={"es"}>Español</option>
             <option value={"en"}>English</option>
+            <option disabled>{t('soon')}</option>
           </select>
         </li>
       </ul>
