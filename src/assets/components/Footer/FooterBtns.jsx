@@ -6,10 +6,10 @@ const FooterBtns = () => {
   return (
     <footer className="footerBtns">
       <div className="fBtnsRedes">
-        <a href="#">Instagram</a>
-        <a href="#">Linkedin</a>
-        <a href="#">Twitter</a>
-        <a href="#">GitHub</a>
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/" target="_blank">Linkedin</a>
+        <a href="https://x.com/" target="_blank">Twitter</a>
+        <a href="https://github.com/" target="_blank">GitHub</a>
       </div>
       <div className="fBtnGrande">
         <a href="#" className="footerbtnAmplio">
