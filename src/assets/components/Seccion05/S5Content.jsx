@@ -1,16 +1,18 @@
 import s5Img from "../../IMG/s5Img.png";
 import { Comillas } from "../svg/svg";
 import { Flecha } from "../svg/svg";
+import { useTranslation } from "react-i18next";
 
 const S5Content = () => {
+  const { t } = useTranslation("seccion05");
   return (
     <div className="s5Content">
       <div className="s5ContentContainer">
         <div className="S5ContentImg">
           <img src={s5Img} alt="" />
           <div className="s5TxtImg">
-            <h3>Mbida Messi</h3>
-            <p>Fundador de ERC Music Market Store</p>
+            <h3>{t("titleImg")}</h3>
+            <p>{t("descriptionImg")}</p>
           </div>
         </div>
         <div className="s5ContentTxt">
@@ -19,20 +21,16 @@ const S5Content = () => {
               <i>
                 <Comillas />
               </i>
-              <span>Opinión Cliente</span>
+              <span>{t("client")}</span>
             </div>
-            <p>
-              Me impresionó el increíble nivel de asistencia y eficiencia del
-              chatbot de IA de ROTAR AI. Entendió mis preguntas rápidamente y
-              brindó respuestas precisas y útiles.
-            </p>
+            <p>{t("testimony")}</p>
           </div>
           <footer className="s5ContentBtn">
             <div className="s5btnsnums">
               <span>1 / 4</span>
             </div>
             <button>
-              Ver más testimonios <Flecha />
+              {t("seeMore")} <Flecha />
             </button>
           </footer>
         </div>

@@ -1,17 +1,15 @@
-import React from "react";
+import { useTranslation } from "react-i18next";
 
 const S5Header = () => {
+  const { t } = useTranslation("seccion05");
   return (
     <header>
       <div className="s5HeaderContainer">
         <div className="s5Titulo">
-          <h2>¿Qué dicen las empresas sobre nuestro producto?</h2>
+          <h2>{t("title")}</h2>
         </div>
         <div className="s5TituloTxt">
-          <p>
-            Únete a la creciente comunidad de empresas que han experimentado el
-            impacto transformador de nuestros chatbots.
-          </p>
+          <p>{t("description")}</p>
         </div>
       </div>
     </header>
