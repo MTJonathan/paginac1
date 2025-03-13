@@ -1,40 +1,26 @@
-import React from "react";
+import { useTranslation } from "react-i18next";
 
 const FooterHeader = () => {
+  const { t } = useTranslation("footer");
   return (
     <header className="footerTxt">
       <div className="footerDiv">
         <div className="fDivItem">
-          <h3>Empresa</h3>
-          <ul>
-            <li>Sobre Rotar AI</li>
-            <li>Precios</li>
-            <li>Demo</li>
-          </ul>
+          <h3>{t("subtitle")}</h3>
+          <ul dangerouslySetInnerHTML={{ __html: t("list") }} />
         </div>
         <div className="fDivItem">
-          <h3>Recursos</h3>
-          <ul>
-            <li>Blog</li>
-            <li>Eventos</li>
-            <li>Herramientas</li>
-          </ul>
+          <h3>{t("subtitle2")}</h3>
+          <ul dangerouslySetInnerHTML={{ __html: t("list2") }} />
         </div>
         <div className="fDivItem">
-          <h3>Legal</h3>
-          <ul>
-            <li>Términos de uso</li>
-            <li>Política de privacidad</li>
-          </ul>
+          <h3>{t("subtitle3")}</h3>
+          <ul dangerouslySetInnerHTML={{ __html: t("list3") }} />
         </div>
       </div>
       <div className="footerTitulo">
         <h2>Rotar AI</h2>
-        <p>
-          Estamos a la vanguardia del desarrollo de chatbots de IA,
-          revolucionando la forma en que las empresas interactúan con sus
-          clientes.
-        </p>
+        <p>{t("description")}</p>
       </div>
     </header>
   );

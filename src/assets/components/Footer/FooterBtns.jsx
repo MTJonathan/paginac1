@@ -1,6 +1,8 @@
 import { Logo } from "../svg/svg";
+import { useTranslation } from "react-i18next";
 
 const FooterBtns = () => {
+  const { t } = useTranslation("footer");
   return (
     <footer className="footerBtns">
       <div className="fBtnsRedes">
@@ -11,7 +13,7 @@ const FooterBtns = () => {
       </div>
       <div className="fBtnGrande">
         <a href="#" className="footerbtnAmplio">
-          <Logo /> Rotar AI. Todos los derechos reservados.
+          <Logo /> Rotar AI. {t("button")}.
         </a>
       </div>
     </footer>
