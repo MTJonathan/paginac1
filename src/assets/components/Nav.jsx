@@ -28,17 +28,17 @@ const Nav = () => {
         <li><a href="">{t('solutions')}</a></li>
         <li><a href="">{t('resources')}</a></li>
         <li><a href="">{t('pricing')}</a></li>
-        <li>
-          <select value={idioma} onChange={(e) => changeLanguage(e.target.value)}>
-            <option value={"es"}>Español</option>
-            <option value={"en"}>English</option>
-            <option disabled>{t('soon')}</option>
-          </select>
-        </li>
       </ul>
       <div className="Options">
         <ul>
             <li><a href="">{t('login')}</a></li>
+            <li>
+              <select value={idioma} onChange={(e) => changeLanguage(e.target.value)}>
+                <option value={"es"}>Español</option>
+                <option value={"en"}>English</option>
+                <option disabled>{t('soon')}</option>
+              </select>
+            </li>
             <li><a href="">{t('book_demo')}<span><Flecha /></span></a></li>
         </ul>
       </div>

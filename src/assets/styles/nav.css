@@ -31,19 +31,20 @@
 .nav .Options ul{
     display: flex;
     align-items: center;
+    gap: 1rem;
 }
-.nav .Options ul li:nth-child(2){
+.nav .Options ul li:nth-child(3){
     position: relative;
     background-color: #00ff7e;
     border-radius: 18px;
 }
 
-.nav .Options ul li:nth-child(2) a{
+.nav .Options ul li:nth-child(3) a{
     display: block;
     padding: 8px 18px;
 }
 
-.nav .Options ul li:nth-child(2) a span svg{
+.nav .Options ul li:nth-child(3) a span svg{
     position: relative;
     top: 5px;
     left: 5px;
@@ -51,7 +52,7 @@
 }
 
 @media(width <= 900px){
-    .nav .Options ul li:nth-child(2){
+    .nav .Options ul li:nth-child(3){
         display: none;
     }
     .nav{
@@ -60,7 +61,7 @@
         clip-path: none;
     }
 }
-@media (width <= 650px){
+@media (width <= 780px){
     .nav ul{
         display: none;
     }

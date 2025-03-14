@@ -208,6 +208,9 @@
   }
 }
 @media (width <= 450px){
+  html .seccion01{
+    margin-top: 0px !important;
+  }
   .imgPrincipalS1 img{
     height: 250px;
   }
