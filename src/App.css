@@ -27,6 +27,12 @@ p{
   animation-timeline: --reveal;
   animation-range: entry 25% cover 30%;
 }
+@media (width <= 1110px){
+  h3, p{
+    animation: none;
+    clip-path: none;
+  }
+}
 @media (width <= 650px){
   .container{
     margin: 0;

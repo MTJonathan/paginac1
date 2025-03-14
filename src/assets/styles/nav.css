@@ -56,6 +56,8 @@
     }
     .nav{
         padding: 1.5rem 3rem;
+        animation: none;
+        clip-path: none;
     }
 }
 @media (width <= 650px){

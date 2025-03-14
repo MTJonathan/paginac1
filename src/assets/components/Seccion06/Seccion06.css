@@ -79,6 +79,10 @@
   }
 }
 @media (width <= 1000px) {
+  .s6Container header h2, .txtS6, .btnS6 a{
+    animation: none;
+    clip-path: none;
+  }
   .seccion06 {
     clip-path: none;
   }

@@ -103,6 +103,10 @@
 } */
 
 @media (width <= 1100px) {
+  .s4Container header h2, .slider, .btnsS4 button {
+    animation: none;
+    clip-path: none;
+  }
   .imgSlider {
     height: 220px;
   }

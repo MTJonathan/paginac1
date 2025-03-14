@@ -154,6 +154,10 @@
   .imgPrincipalS1 img {
     clip-path: none;
   }
+  .seccion01 h1, .cuadroTxt p,.seccion01 .titulo p,.imgS1Item:nth-child(2) p,.imgS1Item:nth-child(3) p{
+    animation: none;
+    clip-path: none;
+  }
 }
 @media (width <= 900px){
   .seccion01Container {

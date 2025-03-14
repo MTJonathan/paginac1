@@ -138,6 +138,10 @@
 }
 
 @media (width <= 1023px) {
+  .footer, .footerTitulo h2, .footerTitulo p, .fDivItem h3, .fDivItem ul, .footerBtns a{
+    animation: none;
+    clip-path: none;
+  }
   .footer {
     padding: 80px 100px 60px;
   }
@@ -163,6 +167,13 @@
   }
   .footerDiv {
     justify-content: center;
+  }
+}
+@media (width <= 650px) {
+  .footer{
+    margin-bottom: 0 !important;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
 }
 @media (width <= 500px) {

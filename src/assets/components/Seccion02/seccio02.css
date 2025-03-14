@@ -13,9 +13,9 @@
   background-position: center;
   background-size: cover;
   text-align: center;
-  animation: tilt-in-fwd-tr cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: tilt-in-fwd-tr cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   view-timeline-name: --reveal;
-  animation-timeline: --reveal; 
+  animation-timeline: --reveal;
   animation-range: entry 25% cover 30%;
 }
 .s2Txt h2 {
@@ -24,7 +24,7 @@
   animation: typing 1.3s steps(40, end) forwards;
   clip-path: inset(0 100% 0 0);
   view-timeline-name: --reveal;
-  animation-timeline: --reveal; 
+  animation-timeline: --reveal;
   animation-range: entry 25% cover 30%;
 }
 
@@ -106,9 +106,9 @@
 .s2Titulo p {
   width: 85%;
   margin: 32px 0;
-  animation: text-focus-in cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   view-timeline-name: --reveal;
-  animation-timeline: --reveal; 
+  animation-timeline: --reveal;
   animation-range: entry 25% cover 30%;
 }
 
@@ -126,9 +126,9 @@
 .s2DLbItem {
   border-radius: 23px;
   padding: 20px;
-  animation: tilt-in-fwd-tr cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: tilt-in-fwd-tr cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   view-timeline-name: --reveal;
-  animation-timeline: --reveal; 
+  animation-timeline: --reveal;
   animation-range: entry 25% cover 30%;
 }
 .s2DLaItem:nth-child(1) {
@@ -293,6 +293,14 @@
 
 /* Media Queries */
 @media (width <= 1110px) {
+  .s2Cuadro,
+  .s2Txt h2,
+  .s2Titulo p,
+  .s2DLaItem,
+  .s2DLbItem {
+    animation: none;
+    clip-path: none;
+  }
   .seccion02Container {
     grid-template-columns: 1fr;
     padding: 30px 50px;
@@ -329,10 +337,12 @@
 }
 
 @media (width <= 500px) {
-  .s2DLaImg, .s2DLbImg, .s2CuadroImg{
+  .s2DLaImg,
+  .s2DLbImg,
+  .s2CuadroImg {
     display: none;
   }
-  .s2DivLa{
+  .s2DivLa {
     grid-template-rows: 1fr 1fr;
   }
 }
